@@ -1,58 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Page</title>
 
-    <link
-      rel="stylesheet"
-      href="https://fontawesome.com/icons/mug-saucer?f=classic&s=solid"
-    />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <section class="auth-window">
-      <div class="auth-image">
-        <img
-          src="./img/webchat-high-resolution-logo-transparent.png"
-          alt="Website logo"
-          width="200"
+        <link
+            rel="stylesheet"
+            href="https://fontawesome.com/icons/mug-saucer?f=classic&s=solid"
         />
-      </div>
-
-      <h2>Login to your account</h2>
-
-      <form method="post" class="login-passwd">
-        <input type="text" name="username" placeholder="Username" required />
-        <input
-          type="password"
-          name="password"
-          placeholder="Password"
-          autocomplete="off"
-          required
+        <link rel="stylesheet" href="/styles/styles.css" />
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+            rel="stylesheet"
         />
-        <div class="forgot-div">
-          <a class="forgot-passwd" href="#">Forgot password?</a>
-        </div>
-        <input class="btnLogin" type="submit" value="Login" />
-      </form>
+    </head>
+    <body>
+        <section class="auth-window">
+            <div class="auth-image">
+                <img
+                    src="./img/webchat-high-resolution-logo-transparent.png"
+                    alt="Website logo"
+                    width="200"
+                />
+            </div>
 
-      <section class="alternative-login">
-        <a class="google" href="#" aria-label="Login with Google"> </a>
-        <div class="no-account">
-          <p>Don't have a account ?</p>
-          <a href="">Sign up</a>
-        </div>
-      </section>
-    </section>
-    <script src="./script/index.js" defer></script>
-  </body>
+            <h2>Login to your account</h2>
+
+            <form method="post" class="login-passwd">
+                <input
+                    type="text"
+                    name="username"
+                    placeholder="Username"
+                    required
+                />
+                <input
+                    type="password"
+                    name="password"
+                    placeholder="Password"
+                    autocomplete="off"
+                    required
+                />
+                <div class="forgot-div">
+                    <a class="forgot-passwd" href="#">Forgot password?</a>
+                </div>
+                <input class="btnLogin" type="submit" value="Login" />
+            </form>
+
+            <section class="alternative-login">
+                <a class="google" href="#" aria-label="Login with Google"> </a>
+                <div class="no-account">
+                    <p>Don't have a account ?</p>
+                    <a href="">Sign up</a>
+                </div>
+            </section>
+        </section>
+        <script src="./script/index.js" defer></script>
+    </body>
 </html>
