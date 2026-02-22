@@ -7,6 +7,7 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 export const __dirname = path.dirname(__filename);
 export const MONGO_URI = process.env.MONGO_URI;
+export const SESSION_SECRET = process.env.SESSION_SECRET;
 
 const connectDB = async () => {
     try {
